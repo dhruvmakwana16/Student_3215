@@ -1,0 +1,283 @@
+/* General styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #4b5b64;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-name {
+    margin: 0;
+    font-size: 2em;
+    text-align: left;
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 10px;
+    text-align: right;
+}
+header h1 {
+    text-align: laft;
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #db79ce;
+}
+/* Section styles */
+#home {
+    background-image: url('WhatsApp Image 2024-06-21 at 10.26.14_7cfd7e29.jpg');
+    background-size: cover;
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 2px solid #333;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-box {
+    background-color: #1a1818;
+    padding: 40px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Heading styles */
+#home h1 {
+    font-size: 3em;
+    color: #d6cccc;
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#home h5 {
+    font-size: 1.2em;
+    color: #d6cccc;
+    margin: 0;
+    padding-top: 10px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+#About{
+    background-image: url('WhatsApp Image 2024-06-21 at 10.59.37_5684fd86.jpg');
+    background-size: cover;
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 2px solid #333;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#About h1 {
+    font-size: 3em;
+    color: #d6cccc;
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#About h5 {
+    font-size: 1.2em;
+    color: #d6cccc;
+    margin: 0;
+    padding-top: 10px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+
+
+#services {
+    color: #ffee10;
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+#education{
+    text-align: center;
+
+}
+.container {
+    padding: 90px;
+}
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap: 40px;
+    margin-top: 26px;
+}
+
+.services-list div {
+    background-color:transparent;
+    padding: 40px;
+    font-size: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #eae056d2,1px 1px 40px #012290f7 ;
+}
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div i {
+    text-decoration: none;
+    color:#000000;
+    font-size: 40px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div p {
+    text-align: justify;
+    line-height: 1.5;
+}
+.services-list div:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.icons {
+    max-width: 400px; 
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-content: center; 
+    grid-gap: 20px; 
+}
+
+.icons i {
+    font-size: 150px; 
+    margin: 10px;
+}
+
+
+
+
+/* contact aery */
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: #333;
+}
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+.contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form .form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+.contact-form .form-group button {
+    padding: 10px 15px;
+    background: #5cb85c;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.contact-form .form-group button:hover {
+    background: #4cae4c;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    #home {
+        padding: 60px 20px;
+    }
+
+    #home h1 {
+        font-size: 2em;
+    }
+
+    #home h5 {
+        font-size: 1em;
+    }
+    .content-box {
+        padding: 20px;
+    }
+}
